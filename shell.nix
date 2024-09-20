@@ -6,5 +6,5 @@ let
   '';
 in pkgs.mkShell {
   name = "sstc";
-  buildInputs = [ compile kicad ];
+  buildInputs = [ compile kicad pkgs.freecad ];
 }
