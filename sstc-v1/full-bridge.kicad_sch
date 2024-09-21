@@ -5779,7 +5779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+5V"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -8932,7 +8932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+5V"
 			(at 246.38 38.1 0)
 			(effects
 				(font
