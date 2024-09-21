@@ -1,6 +1,6 @@
 /#auto_saved_files#
 /fp-info-cache
-/sstc-backups/
+sstc-backups
 *.lck
 /.direnv/
 *.pdf
