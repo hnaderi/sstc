@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -414,10 +414,6 @@
     [
       "12386e27-b89b-4ca6-80fe-d7faafedc3eb",
       "Power"
-    ],
-    [
-      "f675318c-7f6d-4de0-943d-33e5e963020d",
-      "Audio"
     ]
   ],
   "text_variables": {}
