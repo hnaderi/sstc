@@ -16054,6 +16054,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 307.34 123.19)
+		(size 111.76 58.42)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "193e2dbb-4141-444b-808b-df536aea3fb9")
+		(property "Sheetname" "Inverter"
+			(at 307.34 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inverter.kicad_sch"
+			(at 307.34 182.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sstc-v2"
+				(path "/12c328c4-548d-4966-927c-d905993e90bc"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

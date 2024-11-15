@@ -414,6 +414,10 @@
     [
       "12386e27-b89b-4ca6-80fe-d7faafedc3eb",
       "Power"
+    ],
+    [
+      "193e2dbb-4141-444b-808b-df536aea3fb9",
+      "Inverter"
     ]
   ],
   "text_variables": {}
