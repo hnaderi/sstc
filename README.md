@@ -1,4 +1,5 @@
-# Hossein Naderi's Solid-State Tesla Coil
+# Hossein Naderi's Musical Solid-State Tesla Coil
+
 [![website](https://img.shields.io/badge/Website-indigo?style=for-the-badge)](https://projects.hnaderi.dev/sstc/)
 
 This repo contains all the circuitry and part designs used in this project. It's still a work in progress, but works nevertheless.
@@ -15,4 +16,19 @@ You can either use the website or this [branch](https://github.com/hnaderi/sstc/
 
 ## Customize parts
 All parts are designed parametrically, so you can change dimensions in the sheet's values to create custom ones.
+
+## Gallery
+
+<figure>
+  <img src="public/gallery/tesla.webp" height="300"/>
+  <figcaption>
+    SSTC v2 running at 110v CW mode with FM music modulation
+  </figcaption>
+</figure>
+<figure>
+  <img src="public/gallery/tesla-interrupted.png" height="300"/>
+  <figcaption>
+    SSTC v2 running at 110v interrupted mode
+  </figcaption>
+</figure>
 
