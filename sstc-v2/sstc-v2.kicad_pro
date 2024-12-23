@@ -418,6 +418,14 @@
     [
       "193e2dbb-4141-444b-808b-df536aea3fb9",
       "Inverter"
+    ],
+    [
+      "de98e919-ad57-4909-99e2-eef5b533b192",
+      "Interrupter"
+    ],
+    [
+      "8335ec16-6563-4a5e-892e-0e9379d9a30b",
+      "Rectifier"
     ]
   ],
   "text_variables": {}

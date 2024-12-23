@@ -16017,7 +16017,7 @@
 		)
 	)
 	(sheet
-		(at 307.34 60.96)
+		(at 306.07 0)
 		(size 111.76 53.34)
 		(fields_autoplaced yes)
 		(stroke
@@ -16029,7 +16029,7 @@
 		)
 		(uuid "12386e27-b89b-4ca6-80fe-d7faafedc3eb")
 		(property "Sheetname" "Power"
-			(at 307.34 60.2484 0)
+			(at 306.07 -0.7116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16038,7 +16038,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 307.34 114.8846 0)
+			(at 306.07 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16055,7 +16055,7 @@
 		)
 	)
 	(sheet
-		(at 307.34 123.19)
+		(at 306.07 62.23)
 		(size 111.76 58.42)
 		(fields_autoplaced yes)
 		(stroke
@@ -16067,7 +16067,7 @@
 		)
 		(uuid "193e2dbb-4141-444b-808b-df536aea3fb9")
 		(property "Sheetname" "Inverter"
-			(at 307.34 122.4784 0)
+			(at 306.07 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16076,7 +16076,7 @@
 			)
 		)
 		(property "Sheetfile" "inverter.kicad_sch"
-			(at 307.34 182.1946 0)
+			(at 306.07 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16088,6 +16088,91 @@
 			(project "sstc-v2"
 				(path "/12c328c4-548d-4966-927c-d905993e90bc"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 304.8 196.85)
+		(size 113.03 58.42)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8335ec16-6563-4a5e-892e-0e9379d9a30b")
+		(property "Sheetname" "Rectifier"
+			(at 304.8 196.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rectifier.kicad_sch"
+			(at 304.8 255.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 304.8 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "sstc-v2"
+				(path "/12c328c4-548d-4966-927c-d905993e90bc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 306.07 129.54)
+		(size 111.76 59.69)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de98e919-ad57-4909-99e2-eef5b533b192")
+		(property "Sheetname" "Interrupter"
+			(at 306.07 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interrupter.kicad_sch"
+			(at 306.07 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sstc-v2"
+				(path "/12c328c4-548d-4966-927c-d905993e90bc"
+					(page "4")
 				)
 			)
 		)
