@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>HNaderi's Musical Solid-State Tesla Coil</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <style type="text/css" media="screen">
+      .row > a > img {
+        height: 15em;
+      }
+      figure img {
+        max-height: 500px;
+      }
+      iframe {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
+    <div class="container">
+      <div class="row">
+        <section id="intro" class="mt-5">
+          <h1 class="display-4">Musical Solid-State Tesla Coil (SSTC)</h1>
+          <a href="https://github.com/hnaderi/sstc">
+            <img
+              alt="project's github page"
+              src="https://img.shields.io/badge/hnaderi%2FSSTC-8A2BE2?style=for-the-badge&logo=github&label=Github"
+            />
+          </a>
+          <br />
+          WIP...
+        </section>
+        <section id="v2" class="mt-5">
+          <h1>V2</h1>
+          <%- include("schematics.ejs", schematics.v2) %>
+        </section>
+
+        <section class="mt-5">
+          <h1>Parts</h1>
+          <div class="row">
+            <% parts.forEach(function(part) { %>
+            <%- include("part.ejs", {part}) %>
+            <% }) %>
+          </div>
+        </section>
+
+        <section class="mt-5 mb-5">
+          <h1>Gallery</h1>
+          <div class="row row-cols-auto">
+            <% gallery.images.forEach(function(image){ %>
+            <%- include("image.ejs", image) %>
+            <% }) %>
+          </div>
+          <h2>Videos</h2>
+          <div class="row row-cols-auto">
+            <div class="col">
+            </div>
+            <% gallery.videos.forEach(function(video){ %>
+            <%- include("youtube.ejs", video) %>
+            <% }) %>
+          </div>
+        </section>
+
+        <section id="v1" class="mt-5 mb-5">
+          <h1>V1</h1>
+          <%- include("schematics.ejs", schematics.v1) %>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

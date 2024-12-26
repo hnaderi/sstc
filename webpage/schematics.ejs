@@ -1,0 +1,62 @@
+<div class="row">
+  <div class="col">
+    <div
+      id="<%= id %>"
+      class="carousel carousel-dark mb-2 mt-2"
+      data-bs-interval="false"
+    >
+      <div class="carousel-indicators">
+        <% pages.forEach(function(page, index) { %>
+        <button
+          type="button"
+          data-bs-target="#<%= id %>"
+          data-bs-slide-to="<%= index %>"
+          <%- (index===0) ? 'class="active" aria-current="true"' : '' %>
+          aria-label="<%= page.alt %>"
+        ></button>
+        <% }) %>
+      </div>
+      <div class="carousel-inner">
+        <% pages.forEach(function(page, index) { %>
+        <div class="carousel-item <%- (index===0) ? 'active' : '' %>">
+          <img
+            src="<%= page.src %>"
+            class="d-block w-100"
+            alt="<%= page.alt %>"
+          />
+        </div>
+        <% }) %>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#<%= id %>"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#<%= id %>"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <a href="<%= pdf %>">
+      <img
+        alt="Download PDF"
+        src="https://img.shields.io/badge/Download%20PDF-green?style=for-the-badge"
+      />
+    </a>
+  </div>
+</div>

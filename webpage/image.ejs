@@ -1,0 +1,16 @@
+<div class="col">
+  <figure class="figure">
+    <img
+      src="<%= src %>"
+      class="figure-img img-fluid rounded"
+      alt=""
+    />
+    <figcaption class="figure-caption">
+      <ul>
+        <% caption.forEach(function(item){ %>
+        <li><%= item %></li>
+        <% }) %>
+      </ul>
+    </figcaption>
+  </figure>
+</div>

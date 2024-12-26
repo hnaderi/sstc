@@ -1,0 +1,87 @@
+{
+  "schematics": {
+    "v2": {
+      "id": "schematics-v2",
+      "pdf": "sstc-v2.pdf",
+      "pages": [
+        {
+          "src": "sstc-v2.svg",
+          "alt": "Controller circuit schematics"
+        },
+        {
+          "src": "sstc-v2-Power.svg",
+          "alt": "Driver circuit schematics"
+        },
+        {
+          "src": "sstc-v2-Inverter.svg",
+          "alt": "Inverter circuit schematics"
+        },
+        {
+          "src": "sstc-v2-Interrupter.svg",
+          "alt": "Interrupter circuit schematics"
+        },
+        {
+          "src": "sstc-v2-Rectifier.svg",
+          "alt": "Rectifier circuit schematics"
+        }
+      ]
+    },
+    "v1": {
+      "id": "schematics-v1",
+      "pdf": "sstc.pdf",
+      "pages": [
+        {
+          "src": "sstc.svg",
+          "alt": "Controller circuit schematics"
+        },
+        {
+          "src": "sstc-full-bridge-driver.svg",
+          "alt": "Driver circuit schematics"
+        }
+      ]
+    }
+  },
+  "parts": [
+    "tesla_Coil%20holder.stl",
+    "tesla_Coil%20cap.stl",
+    "toroid_Body.stl",
+    "toroid-holder_Body.stl"
+  ],
+  "gallery": {
+    "images": [
+      {
+        "src": "gallery/tesla.webp",
+        "caption": [
+          "VBus: 110v",
+          "CW mode with FM music modulation"
+        ]
+      },
+      {
+        "src": "gallery/tesla-interrupted.png",
+        "caption": [
+          "VBus: 110v",
+          "Caps: 880uF",
+          "interrupted mode"
+        ]
+      },
+      {
+        "src": "gallery/tesla-interrupted-v220.png",
+        "caption": [
+          "VBus: 220v @100Hz",
+          "Full wave, No smoothing",
+          "interrupted mode"
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "src": "https://www.youtube.com/embed/sRIAfXX71IA",
+        "title": "SSTC plays Coffin dance theme"
+      },
+      {
+        "src": "https://www.youtube.com/embed/DEDck1-7oqo",
+        "title": "SSTC plays Axel F"
+      }
+    ]
+  }
+}
