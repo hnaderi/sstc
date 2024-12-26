@@ -49,20 +49,12 @@
             />
           </a>
           <br />
-          WIP...
+
+        <h3>WIP, more info coming soon...</h3>
         </section>
         <section id="v2" class="mt-5">
           <h1>V2</h1>
           <%- include("schematics.ejs", schematics.v2) %>
-        </section>
-
-        <section class="mt-5">
-          <h1>Parts</h1>
-          <div class="row">
-            <% parts.forEach(function(part) { %>
-            <%- include("part.ejs", {part}) %>
-            <% }) %>
-          </div>
         </section>
 
         <section class="mt-5 mb-5">
@@ -82,8 +74,21 @@
           </div>
         </section>
 
+        <section class="mt-5">
+          <h1>Parts</h1>
+          <div class="row">
+            <% parts.forEach(function(part) { %>
+            <%- include("part.ejs", {part}) %>
+            <% }) %>
+          </div>
+        </section>
+
         <section id="v1" class="mt-5 mb-5">
           <h1>V1</h1>
+          This was my first design that I didn't continue
+          as I realized that it has some inherent flaws and it's better to start from scratch.
+          <br />
+
           <%- include("schematics.ejs", schematics.v1) %>
         </section>
       </div>
