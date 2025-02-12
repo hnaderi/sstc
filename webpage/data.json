@@ -53,16 +53,8 @@
         "src": "gallery/tesla.webp",
         "caption": [
           "VBus: 110v",
-          "Caps: 880uF",
+          "Bus cap: 880uF",
           "CW mode with FM music modulation"
-        ]
-      },
-      {
-        "src": "gallery/tesla-interrupted.png",
-        "caption": [
-          "VBus: 110v",
-          "Caps: 880uF",
-          "interrupted mode"
         ]
       },
       {
@@ -71,6 +63,48 @@
           "VBus: 220v @100Hz",
           "Full wave, No smoothing",
           "interrupted mode"
+        ]
+      },
+      {
+        "src": "gallery/fm-cw-120vac.png",
+        "caption": [
+          "VBus: ~120 Vdc",
+          "Bus cap: 10mF",
+          "CW mode, with FM music",
+          "Current draw: ~2.5 amps (PF ~0.82)"
+        ]
+      },
+      {
+        "src": "gallery/arc-draw.png",
+        "caption": [
+          "VBus: 150Vac @100Hz",
+          "Full wave, No smoothing",
+          "CW mode",
+          "Current draw: ~3.5 amps (PF ~1)"
+        ]
+      },
+      {
+        "src": "gallery/straight-arc.png",
+        "caption": [
+          "VBus: 150Vac @100Hz",
+          "Full wave, No smoothing",
+          "CW mode",
+          "Current draw: ~3.5 amps (PF ~1)"
+        ]
+      },
+      {
+        "src": "gallery/tesla-interrupted.png",
+        "caption": [
+          "VBus: 110v",
+          "Bus cap: 880uF",
+          "interrupted mode"
+        ]
+      },
+      {
+        "src": "gallery/flashover.png",
+        "caption": [
+          "Death of the secondary coil :(",
+          "Internal flashover that broke the pipe dielectric"
         ]
       }
     ],
@@ -86,6 +120,10 @@
       {
         "src": "https://www.youtube.com/embed/SPVhwVSuPv4",
         "title": "SSTC plays never mind"
+      },
+      {
+        "src": "https://www.youtube.com/embed/bCFDyeH2WK8",
+        "title": "Test run that ended with an internal flashover"
       }
     ]
   }
