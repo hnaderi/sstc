@@ -50,11 +50,78 @@
   "gallery": {
     "images": [
       {
+        "src": "gallery/CW-v3-2.5KW.jpg",
+        "caption": [
+          "VBus: 300VDC",
+          "Bus cap: 10mF",
+          "CW mode at 2.5KW",
+          "Rev: 3"
+        ]
+      },
+      {
+        "src": "gallery/CW-v3-2.5KW-arcdraw-1.jpg",
+        "caption": [
+          "VBus: 300VDC",
+          "Bus cap: 10mF",
+          "CW mode at 2.5KW",
+          "Rev: 3"
+        ]
+      },
+      {
+        "src": "gallery/CW-v3-2.5KW-arcdraw-2.jpg",
+        "caption": [
+          "VBus: 300VDC",
+          "Bus cap: 10mF",
+          "CW mode at 2.5KW",
+          "Rev: 3"
+        ]
+      },
+      {
+        "src": "gallery/CW-v3-2KW-arcdraw-1.jpg",
+        "caption": [
+          "VBus: 300VDC",
+          "Bus cap: 10mF",
+          "CW mode at 2KW",
+          "Rev: 3"
+        ]
+      },
+      {
+        "src": "gallery/CW-v3-2KW-arcdraw-2.jpg",
+        "caption": [
+          "VBus: 300VDC",
+          "Bus cap: 10mF",
+          "CW mode at 2KW",
+          "Rev: 3"
+        ]
+      },
+
+      {
+        "src": "gallery/CW-v3-2.5KW-slowmotion.jpg",
+        "caption": [
+          "VBus: 300VDC",
+          "Bus cap: 10mF",
+          "CW mode at 2KW",
+          "Rev: 3"
+        ]
+      },
+
+      {
+        "src": "gallery/50Hz-v3.jpg",
+        "caption": [
+          "VBus: 220v @50Hz",
+          "Half wave, No smoothing",
+          "Power draw ~700W",
+          "Rev: 3"
+        ]
+      },
+
+      {
         "src": "gallery/tesla.webp",
         "caption": [
           "VBus: 110v",
           "Bus cap: 880uF",
-          "CW mode with FM music modulation"
+          "CW mode with FM music modulation",
+          "Rev: 2"
         ]
       },
       {
@@ -62,7 +129,8 @@
         "caption": [
           "VBus: 220v @100Hz",
           "Full wave, No smoothing",
-          "interrupted mode"
+          "interrupted mode",
+          "Rev: 2"
         ]
       },
       {
@@ -71,7 +139,8 @@
           "VBus: ~120 Vdc",
           "Bus cap: 10mF",
           "CW mode, with FM music",
-          "Current draw: ~2.5 amps (PF ~0.82)"
+          "Current draw: ~2.5 amps (PF ~0.82)",
+          "Rev: 2"
         ]
       },
       {
@@ -80,7 +149,8 @@
           "VBus: 150Vac @100Hz",
           "Full wave, No smoothing",
           "CW mode",
-          "Current draw: ~3.5 amps (PF ~1)"
+          "Current draw: ~3.5 amps (PF ~1)",
+          "Rev: 2"
         ]
       },
       {
@@ -89,7 +159,8 @@
           "VBus: 150Vac @100Hz",
           "Full wave, No smoothing",
           "CW mode",
-          "Current draw: ~3.5 amps (PF ~1)"
+          "Current draw: ~3.5 amps (PF ~1)",
+          "Rev: 2"
         ]
       },
       {
@@ -97,14 +168,16 @@
         "caption": [
           "VBus: 110v",
           "Bus cap: 880uF",
-          "interrupted mode"
+          "interrupted mode",
+          "Rev: 2"
         ]
       },
       {
         "src": "gallery/flashover.png",
         "caption": [
           "Death of the secondary coil :(",
-          "Internal flashover that broke the pipe dielectric"
+          "Internal flashover that broke the pipe dielectric",
+          "Rev: 2"
         ]
       }
     ],
