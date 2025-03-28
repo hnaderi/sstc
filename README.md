@@ -20,6 +20,12 @@ All parts are designed parametrically, so you can change dimensions in the sheet
 ## Gallery
 
 <figure>
+  <img src="public/gallery/CW-v3-2.5KW.jpg" height="300"/>
+  <figcaption>
+    SSTC v3 running CW mode with FM music modulation at 2.5KW
+  </figcaption>
+</figure>
+<figure>
   <img src="public/gallery/tesla.webp" height="300"/>
   <figcaption>
     SSTC v2 running at 110v CW mode with FM music modulation
