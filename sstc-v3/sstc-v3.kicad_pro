@@ -479,6 +479,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(146, 0, 255)",
+        "track_width": 2.0,
         "wire_width": 10
       },
       {
@@ -486,6 +487,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(255, 0, 39)",
+        "track_width": 1.0,
         "wire_width": 10
       }
     ],
