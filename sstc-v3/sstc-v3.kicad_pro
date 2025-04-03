@@ -473,13 +473,46 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "Critical",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(146, 0, 255)",
+        "wire_width": 10
+      },
+      {
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 0, 39)",
+        "wire_width": 10
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+12V": [
+        "Power"
+      ],
+      "+5V": [
+        "Power"
+      ],
+      "GND": [
+        "Power"
+      ],
+      "Net-(J4-Pin_1)": [
+        "Critical"
+      ],
+      "Net-(J4-Pin_2)": [
+        "Critical"
+      ],
+      "Net-(Q2-D)": [
+        "Critical"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
