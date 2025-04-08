@@ -6779,7 +6779,7 @@
 			(fill
 				(type none)
 			)
-			(uuid ee46b821-f982-4f5a-a069-8196f734af88)
+			(uuid d9b46e80-7c2b-43dc-bdf6-825ababd7aba)
 		)
 	)
 	(netclass_flag ""
@@ -11272,7 +11272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 35.56 178.435 0)
 			(effects
 				(font
