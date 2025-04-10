@@ -4947,7 +4947,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 40739069-9f81-46d6-9937-b5a7c0762746)
+			(uuid 1bb67bc7-de3f-4526-a839-12f475bb13d9)
 		)
 	)
 	(netclass_flag ""
@@ -5475,7 +5475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
 			(at 246.0752 76.2 0)
 			(effects
 				(font
@@ -5613,7 +5613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
 			(at 267.6652 38.1 0)
 			(effects
 				(font
@@ -6466,7 +6466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
 			(at 229.5652 38.1 0)
 			(effects
 				(font
