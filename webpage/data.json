@@ -1,5 +1,19 @@
 {
   "schematics": {
+    "v3": {
+      "id": "schematics-v3",
+      "pdf": "sstc-v3.pdf",
+      "pages": [
+        {
+          "src": "sstc-v3.svg",
+          "alt": "Driver circuit schematics"
+        },
+        {
+          "src": "sstc-v3-IO.svg",
+          "alt": "Interface circuit schematics"
+        }
+      ]
+    },
     "v2": {
       "id": "schematics-v2",
       "pdf": "sstc-v2.pdf",
@@ -94,7 +108,6 @@
           "Rev: 3"
         ]
       },
-
       {
         "src": "gallery/CW-v3-2.5KW-slowmotion.jpg",
         "caption": [
@@ -178,6 +191,13 @@
           "Death of the secondary coil :(",
           "Internal flashover that broke the pipe dielectric",
           "Rev: 2"
+        ]
+      },
+
+      {
+        "src": "gallery/pcb-v3.1-assembled.jpg",
+        "caption": [
+          "PCB for 3.1 driver"
         ]
       }
     ],
