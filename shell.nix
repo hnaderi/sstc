@@ -14,6 +14,8 @@ let
     compile svg sstc-v1/sstc.kicad_sch
     compile pdf sstc-v2/sstc-v2.kicad_sch
     compile svg sstc-v2/sstc-v2.kicad_sch
+    compile pdf sstc-v3/sstc-v3.kicad_sch
+    compile svg sstc-v3/sstc-v3.kicad_sch
 
     echo "Generating part objects ..."
     exportSTLs
