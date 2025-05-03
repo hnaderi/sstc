@@ -516,6 +516,9 @@
       "+5V": [
         "Power"
       ],
+      "+9V": [
+        "Power"
+      ],
       "GND": [
         "Power"
       ],
@@ -527,6 +530,9 @@
       ],
       "Net-(Q2-D)": [
         "Critical"
+      ],
+      "VDC": [
+        "Power"
       ]
     },
     "netclass_patterns": []
