@@ -4110,7 +4110,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 8de1c78d-d992-4171-8ea8-63b58200c0fd)
+			(uuid a3ac5070-34a8-42b5-9a88-150afef41bc1)
 		)
 	)
 	(netclass_flag ""
@@ -4382,7 +4382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 225.7552 38.1 0)
 			(effects
 				(font
@@ -4400,7 +4400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 224.79 34.29 0)
 			(effects
 				(font
@@ -4520,7 +4520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 267.6652 38.1 0)
 			(effects
 				(font
@@ -4538,7 +4538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 266.7 34.29 0)
 			(effects
 				(font
@@ -5300,7 +5300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 196.5452 38.1 0)
 			(effects
 				(font
@@ -5318,7 +5318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 195.58 34.29 0)
 			(effects
 				(font
