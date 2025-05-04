@@ -3345,6 +3345,12 @@
 		(uuid "09e99ce0-ae83-4b5b-82de-a026f21733b4")
 	)
 	(junction
+		(at 193.04 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f3e11b2-8e42-4719-af9e-c20b74e4e5ee")
+	)
+	(junction
 		(at 208.28 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3397,6 +3403,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c049097-f2be-4981-9174-a5f0e60e1292")
+	)
+	(junction
+		(at 193.04 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "519c3b1f-b4e0-434c-8396-26a70ce2d938")
 	)
 	(junction
 		(at 229.87 38.1)
@@ -3475,18 +3487,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d25d4b99-9f73-4fcf-b5b0-7be4554e78f9")
-	)
-	(junction
-		(at 190.5 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7f4e722-7d63-4afa-b2cc-9da043c95b6a")
-	)
-	(junction
-		(at 190.5 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de9af7dc-818f-4258-91e2-eee8d2fcf8b6")
 	)
 	(junction
 		(at 238.76 38.1)
@@ -3672,7 +3672,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 30.48) (xy 190.5 30.48)
+			(xy 198.12 30.48) (xy 193.04 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3922,6 +3922,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 38.1) (xy 208.28 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cbee92-4046-4b84-a1dc-8b5271a01931")
+	)
+	(wire
+		(pts
 			(xy 223.52 105.41) (xy 246.38 105.41)
 		)
 		(stroke
@@ -3952,7 +3962,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 30.48) (xy 190.5 30.48)
+			(xy 186.69 30.48) (xy 193.04 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4092,7 +4102,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 38.1) (xy 190.5 38.1)
+			(xy 179.07 38.1) (xy 193.04 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4159,16 +4169,6 @@
 			(type default)
 		)
 		(uuid "e1c614ac-70b4-40c3-85dc-502a43b82192")
-	)
-	(wire
-		(pts
-			(xy 190.5 38.1) (xy 208.28 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e863da7f-6c24-4652-b7f3-075a6efce677")
 	)
 	(wire
 		(pts
@@ -5797,7 +5797,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 190.5 34.29 0)
+		(at 193.04 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5806,7 +5806,7 @@
 		(fields_autoplaced yes)
 		(uuid "67236bd0-c03d-40ff-b107-51e5910a6578")
 		(property "Reference" "C29"
-			(at 194.31 32.1309 0)
+			(at 196.85 32.1309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5815,7 @@
 			)
 		)
 		(property "Value" "470u"
-			(at 194.31 34.6709 0)
+			(at 196.85 34.6709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +5824,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 191.4652 38.1 0)
+			(at 194.0052 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +5833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 34.29 0)
+			(at 193.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +5842,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 34.29 0)
+			(at 193.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
