@@ -522,6 +522,12 @@
       "GND": [
         "Power"
       ],
+      "Net-(D2-K)": [
+        "Power"
+      ],
+      "Net-(D3-K)": [
+        "Power"
+      ],
       "Net-(J4-Pin_1)": [
         "Critical"
       ],
@@ -542,6 +548,9 @@
       ],
       "Net-(Q3-D)": [
         "Critical"
+      ],
+      "OC": [
+        "Power"
       ],
       "VDC": [
         "Power"
