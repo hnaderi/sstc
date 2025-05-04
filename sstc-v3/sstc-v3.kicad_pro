@@ -534,6 +534,9 @@
       "Net-(J5-Pin_2)": [
         "Critical"
       ],
+      "Net-(Q1-D)": [
+        "Critical"
+      ],
       "Net-(Q2-D)": [
         "Critical"
       ],
