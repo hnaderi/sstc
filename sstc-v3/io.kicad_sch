@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "HNaderi's PLL SSTC")
-		(rev "3.1")
+		(rev "3.2")
 		(company "hnaderi.dev")
 	)
 	(lib_symbols
@@ -4496,7 +4496,7 @@
 			(fill
 				(type none)
 			)
-			(uuid b2b1c33c-62f7-41d0-82f6-dde50016b6a2)
+			(uuid e590d215-9fa8-4389-b9d1-bcfb928d88ab)
 		)
 	)
 	(netclass_flag ""
