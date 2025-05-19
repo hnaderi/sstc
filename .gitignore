@@ -11,3 +11,7 @@ fp-info-cache
 *.bak
 *.csv
 *.zip
+
+# public is generated content, but gallery is not
+public/*
+!public/gallery
