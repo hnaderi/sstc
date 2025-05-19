@@ -1,3 +1,4 @@
+<h2>Schematics</h2>
 <div class="row">
   <div class="col">
     <div
@@ -60,3 +61,29 @@
     </a>
   </div>
 </div>
+
+<% if(locals.pcb) { %>
+<h2>PCB</h2>
+<div class="row">
+  <div class="col">
+    <a href="<%= pcb.image %>">
+      <img alt="PCB Design"
+           class="d-block w-100"
+           src="<%= pcb.image %>"
+      />
+    </a>
+    <a href="<%= pcb.gbrs %>">
+      <img
+        alt="Download Gerbers"
+        src="https://img.shields.io/badge/Download%20Gerbers-darkgreen?style=for-the-badge"
+      />
+    </a>
+    <a href="<%= pcb.bom %>">
+      <img
+        alt="Download BOM"
+        src="https://img.shields.io/badge/Download%20BOM-orange?style=for-the-badge"
+      />
+    </a>
+  </div>
+</div>
+<% } %>

@@ -9,3 +9,5 @@ fp-info-cache
 *.stl
 *.html
 *.bak
+*.csv
+*.zip

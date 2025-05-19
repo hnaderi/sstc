@@ -3,6 +3,11 @@
     "v3": {
       "id": "schematics-v3",
       "pdf": "sstc-v3.pdf",
+      "pcb": {
+        "image": "sstc-v3-pcb.png",
+        "bom": "sstc-v3.csv",
+        "gbrs": "fab-3.2.zip"
+      },
       "pages": [
         {
           "src": "sstc-v3.svg",
@@ -117,7 +122,6 @@
           "Rev: 3"
         ]
       },
-
       {
         "src": "gallery/50Hz-v3.jpg",
         "caption": [
@@ -127,7 +131,6 @@
           "Rev: 3"
         ]
       },
-
       {
         "src": "gallery/tesla.webp",
         "caption": [
@@ -193,7 +196,6 @@
           "Rev: 2"
         ]
       },
-
       {
         "src": "gallery/pcb-v3.1-assembled.jpg",
         "caption": [
