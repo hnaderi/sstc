@@ -197,9 +197,33 @@
         ]
       },
       {
+        "src": "gallery/assembled-1.jpg",
+        "caption": [
+          "Final version"
+        ]
+      },
+      {
+        "src": "gallery/assembled-2.jpg",
+        "caption": [
+          "Final version"
+        ]
+      },
+      {
+        "src": "gallery/assembled-3.jpg",
+        "caption": [
+          "Testing outside"
+        ]
+      },
+      {
+        "src": "gallery/driver-3.2.jpg",
+        "caption": [
+          "Final PCB revision"
+        ]
+      },
+      {
         "src": "gallery/pcb-v3.1-assembled.jpg",
         "caption": [
-          "PCB for 3.1 driver"
+          "PCB for 3.1 driver (first PCB revision)"
         ]
       }
     ],
