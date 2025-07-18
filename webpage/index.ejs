@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>HNaderi's Musical Solid-State Tesla Coil</title>
+    <title>HNaderi’s Musical Solid-State Tesla Coil</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -17,25 +17,24 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-
     <style type="text/css" media="screen">
-      .row > a > img {
-        height: 15em;
-      }
-      figure img {
-        max-height: 500px;
-      }
-      iframe {
-        width: 100%;
-      }
+     .row > a > img {
+       height: 15em;
+     }
+     figure img {
+       max-height: 500px;
+     }
+     iframe {
+       width: 100%;
+     }
     </style>
   </head>
   <body>
     <!--[if lt IE 8]>
       <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
-        your experience.
+      You are using an <strong>outdated</strong> browser. Please
+      <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+      your experience.
       </p>
     <![endif]-->
     <div class="container">
@@ -49,50 +48,93 @@
             />
           </a>
           <br />
+          <div class="mt-3">
+            <h3>Introduction</h3>
+            This project was my first high-power solid state tesla coil and involved many failures and explosions along the way.
+            It was a very time consuming and expensive yet fascinating journey to harness the forces of nature and make a reliable musical solid-state tesla coil;
+            and in the end, I’m quite satisfied with the final result!
+            <br />
+            I ended up using a PLL stage for reliable resonant drive of the coil which opened up the way to FM music,
+            which produces surprisingly loud and clear music that continues to amaze even after prolonged exposure!
+          </div>
+          <div class="mt-3">
+            <h4 style="mt-2">Features</h4>
+            <ul>
+              <li>Adjustable PLL drive</li>
+              <li>Super Clean Audio Modulation (Ready to use PCB with MH-M18 bluetooth module)</li>
+              <li>Current transformer/Antenna feedback</li>
+              <li>Overcurrent detection</li>
+              <li>Under-voltage lockout</li>
+              <li>Guaranteed soft-switching (usable for dual resonant setups, e.g. DRSSTCs)</li>
+              <li>Powerful GDT driver stage</li>
+              <li>External interrupt</li>
+              <li>DC jack support</li>
+              <li>AC input support</li>
+              <li>Secure start for CW mode</li>
+              <li>Extension ports for power/fan, audio, interrupt, status panel</li>
+            </ul>
+          </div>
+          <div class="mt-3">
+            <h4>How it works</h4>
+            The system operates as a control loop that uses current feedback from either the secondary or primary coil and locks to an adjustable phase difference.
+            <br />
 
-        <h3>WIP, more info coming soon...</h3>
+            The feedback stage shapes the incoming signal by clipping it to appropriate voltage levels, which is then fed into an inverting Schmitt trigger to clean up the waveform.
+            This cleaned signal is then given to the HEF4046 PLL chip. This chip is the heart of the circuit, generating the drive signal for the coil.
+            VCO center frequency, phase difference and frequency range can be adjusted by 3 potentiometers.
+            VCO input voltage is used to modulate the incoming audio signal from the bluetooth module (if enabled).
+            This slightly shifts the drive frequency (causing the coil to operate slightly off-resonance).
+            The resulting change in power draw causes the plasma output to vibrate the surrounding air at the modulated frequency (which is the audio), and plays an incredibly clear audio.
+            <br />
+            The drive signal is then fed into a signal-shaping stage, consisting of two flip-flops and several AND gates.
+            The flip-flops handle soft-switching by ensuring that interrupts are only processed at clock edges, not during conduction periods.
+            This allows extremely high efficient switching (It can be improved further if you adjust the correct phase difference in the PLL).
+            <br />
+            This stage produces two drive signals with a 180-degree phase difference, which is then fed into the TC4427 gate driver IC.
+            This gate driver then drives the push-pull mosfet stage capable of driving gate drive transformers (GDTs) of various sizes thanks to its high current-handling capability.
+            It can even drive small flyback transformers easily!
+          </div>
         </section>
-
         <section class="mt-5 mb-5">
           <h1>Gallery</h1>
           <div class="row row-cols-auto">
             <% gallery.images.forEach(function(image){ %>
-            <%- include("image.ejs", image) %>
+              <%- include("image.ejs", image) %>
             <% }) %>
           </div>
           <h2>Videos</h2>
           <div class="row row-cols-auto">
             <% gallery.videos.forEach(function(video){ %>
-            <%- include("youtube.ejs", video) %>
+              <%- include("youtube.ejs", video) %>
             <% }) %>
           </div>
         </section>
-
-        <section id="v3" class="mt-5">
+        <section id="v3" class="mt-5 mb-5">
           <h1>V3</h1>
+          This is the final design that’s been working a long time now, and has been built by others successfully.
           <%- include("schematics.ejs", schematics.v3) %>
         </section>
-
+        <section class="mt-5">
+          <h1>Older versions</h1>
+          The following is a list previous revisions, for the sake of completeness of the project history.
+        </section>
         <section id="v2" class="mt-5">
           <h1>V2</h1>
           <%- include("schematics.ejs", schematics.v2) %>
         </section>
-
         <section class="mt-5">
           <h1>Parts</h1>
           <div class="row">
             <% parts.forEach(function(part) { %>
-            <%- include("part.ejs", {part}) %>
+              <%- include("part.ejs", {part}) %>
             <% }) %>
           </div>
         </section>
-
         <section id="v1" class="mt-5 mb-5">
           <h1>V1</h1>
-          This was my first design that I didn't continue
-          as I realized that it has some inherent flaws and it's better to start from scratch.
+          This was my first design that I didn’t continue
+          as I realized that it has some inherent flaws and it’s better to start from scratch.
           <br />
-
           <%- include("schematics.ejs", schematics.v1) %>
         </section>
       </div>
