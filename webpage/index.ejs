@@ -27,6 +27,16 @@
      iframe {
        width: 100%;
      }
+     body {
+       background-color: lightgoldenrodyellow;
+     }
+     html, body {
+       scrollbar-color: #7e1ec9 #f9f8fa;
+     }
+     ::selection {
+       color: #f9f8fa;
+       background-color: #7e1ec9;
+     }
     </style>
   </head>
   <body>
@@ -79,10 +89,9 @@
             <h4>How it works</h4>
             The system operates as a control loop that uses current feedback from either the secondary or primary coil and locks to an adjustable phase difference.
             <br />
-
             The feedback stage shapes the incoming signal by clipping it to appropriate voltage levels, which is then fed into an inverting Schmitt trigger to clean up the waveform.
             This cleaned signal is then given to the HEF4046 PLL chip. This chip is the heart of the circuit, generating the drive signal for the coil.
-            The VCO's center frequency, phase difference, and frequency range can be adjusted via three potentiometers.
+            The VCO’s center frequency, phase difference, and frequency range can be adjusted via three potentiometers.
             VCO input voltage is used to modulate the incoming audio signal from the bluetooth module (if enabled).
             This slightly shifts the drive frequency, causing the coil to operate slightly off-resonance.
             The resulting change in power draw causes the plasma arc to vibrate the surrounding air at the modulated frequency — producing remarkably clear audio.
