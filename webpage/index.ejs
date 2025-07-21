@@ -51,21 +51,21 @@
           <div class="mt-3">
             <h3>Introduction</h3>
             This project was my first high-power solid state tesla coil and involved many failures and explosions along the way.
-            It was a very time consuming and expensive yet fascinating journey to harness the forces of nature and make a reliable musical solid-state tesla coil;
+            It was a very time consuming and expensive yet fascinating journey to harness the forces of nature and build a reliable musical solid-state tesla coil;
             and in the end, I’m quite satisfied with the final result!
             <br />
             I ended up using a PLL stage for reliable resonant drive of the coil which opened up the way to FM music,
-            which produces surprisingly loud and clear music that continues to amaze even after prolonged exposure!
+            producing surprisingly loud and clear music that continues to amaze even after prolonged exposure!
           </div>
           <div class="mt-3">
             <h4 style="mt-2">Features</h4>
             <ul>
               <li>Adjustable PLL drive</li>
-              <li>Super Clean Audio Modulation (Ready to use PCB with MH-M18 bluetooth module)</li>
+              <li>Super Clean Audio Modulation (Supports MH-M18 bluetooth module)</li>
               <li>Current transformer/Antenna feedback</li>
               <li>Overcurrent detection</li>
               <li>Under-voltage lockout</li>
-              <li>Guaranteed soft-switching (usable for dual resonant setups, e.g. DRSSTCs)</li>
+              <li>Guaranteed soft-switching (suitable for dual resonant setups, e.g. DRSSTCs)</li>
               <li>Powerful GDT driver stage</li>
               <li>12-24 VDC input, easy to use for driving bridges of either MOSFETs or IGBTs</li>
               <li>External interrupt</li>
@@ -82,17 +82,17 @@
 
             The feedback stage shapes the incoming signal by clipping it to appropriate voltage levels, which is then fed into an inverting Schmitt trigger to clean up the waveform.
             This cleaned signal is then given to the HEF4046 PLL chip. This chip is the heart of the circuit, generating the drive signal for the coil.
-            VCO center frequency, phase difference and frequency range can be adjusted by 3 potentiometers.
+            The VCO's center frequency, phase difference, and frequency range can be adjusted via three potentiometers.
             VCO input voltage is used to modulate the incoming audio signal from the bluetooth module (if enabled).
-            This slightly shifts the drive frequency (causing the coil to operate slightly off-resonance).
-            The resulting change in power draw causes the plasma output to vibrate the surrounding air at the modulated frequency (which is the audio), and plays an incredibly clear audio.
+            This slightly shifts the drive frequency, causing the coil to operate slightly off-resonance.
+            The resulting change in power draw causes the plasma arc to vibrate the surrounding air at the modulated frequency — producing remarkably clear audio.
             <br />
-            The drive signal is then fed into a signal-shaping stage, consisting of two flip-flops and several AND gates.
+            The drive signal is then fed into a signal processing stage, consisting of two flip-flops and several AND gates.
             The flip-flops handle soft-switching by ensuring that interrupts are only processed at clock edges, not during conduction periods.
-            This allows extremely high efficient switching (It can be improved further if you adjust the correct phase difference in the PLL).
+            This enables highly efficient switching, which can be improved further if you adjust the correct phase difference in the PLL.
             <br />
             This stage produces two drive signals with a 180-degree phase difference, which is then fed into the TC4427 gate driver IC.
-            This gate driver then drives the push-pull mosfet stage capable of driving gate drive transformers (GDTs) of various sizes thanks to its high current-handling capability.
+            This gate driver then drives the push-pull MOSFET stage capable of driving gate drive transformers (GDTs) of various sizes thanks to its high current-handling capability.
             It can even drive small flyback transformers easily!
           </div>
         </section>
